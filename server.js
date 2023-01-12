@@ -11,6 +11,6 @@ app.get('/', (req, res) => {
   res.sendFile(duongDanFile)
 })
 
-app.listen(3000, function(){
+app.listen(process.env.PORT, function(){
 
 })
